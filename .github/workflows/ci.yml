@@ -62,6 +62,18 @@ jobs:
           [
             {
               pybind11-branch: "v3.0",
+              python: "3.14",
+              numpy-format: "numpy-array-use-type-var",
+              cmake-version: "4.2.x",
+            },
+            {
+              pybind11-branch: "v3.0",
+              python: "3.14",
+              numpy-format: "numpy-array-wrap-with-annotated",
+              cmake-version: "4.2.x",
+            },
+            {
+              pybind11-branch: "v3.0",
               python: "3.13",
               numpy-format: "numpy-array-use-type-var",
               cmake-version: "4.2.x",
@@ -212,6 +224,7 @@ jobs:
       matrix:
         test-package: ["gemmi"]
         python:
+          - "3.14"
           - "3.13"
           - "3.12"
           - "3.11"

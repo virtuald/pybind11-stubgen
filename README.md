@@ -45,7 +45,7 @@ Contributing
 
 During development, you may need to update the reference stubs in tests/stubs. This can be done locally using a convenience tox configuration. Ensure that all Python interpreters required by the test suite are available in your environment. For example, you can install them via uv:
 ```shell
-uv python install 3.10 3.11 3.12 3.13
+uv python install 3.10 3.11 3.12 3.13 3.14
 ```
 To enable the repository hooks locally:
 ```shell
